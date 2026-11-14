@@ -1,0 +1,14 @@
+{
+  "sherpa-onnx-1.12.20.aar": {
+    "sha256": "e3905b1258b577d8d374db798618602ceaaff5805cbf9b356ab25267cd98144d",
+    "bytes": 38013991
+  },
+  "darkman-export.tar.bz2": {
+    "sha256": "444727aa46eb6db645a2bc88fe73868e4bd7596b7f56ca39fad5ef53c41210d4",
+    "bytes": 67215635
+  },
+  "pl_PL-darkman-medium.onnx": {
+    "sha256": "fd148128231cb6a9fb14b6191d3c9f113c3ef05f603758a5fe0fa68085af536e",
+    "bytes": 63201450
+  }
+}

@@ -1,0 +1,20 @@
+.gradle/
+.kotlin/
+local.properties
+**/build/
+app/libs/*.aar
+app/src/main/assets/voice/
+*.jks
+*.keystore
+.tools/
+__pycache__/
+*.pyc
+
+# Local test notes, distributable artifacts and secrets
+/TEST-REPORT.md
+*.apk
+*.zip
+*.wav
+.env
+.env.*
+!.env.example

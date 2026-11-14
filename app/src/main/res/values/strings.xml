@@ -1,0 +1,18 @@
+<resources>
+    <string name="character_count">%1$d / 2000</string>
+    <string name="ready">Gotowe do mówienia.</string>
+    <string name="init_error">Nie udało się uruchomić głosu. Zamknij aplikację i spróbuj ponownie.</string>
+    <string name="preparing">Przygotowuję nagranie…</string>
+    <string name="reading">Czytam…</string>
+    <string name="stopping">Zatrzymuję…</string>
+    <string name="saved">Nagranie zapisane.</string>
+    <string name="save_error">Nie udało się zapisać nagrania.</string>
+    <string name="speed_value">%1$s×</string>
+    <string name="preparing_share">Przygotowuję audio do udostępnienia…</string>
+    <string name="choose_app">Wybierz aplikację i rozmowę.</string>
+    <string name="stopped">Zatrzymano.</string>
+    <string name="finished">Gotowe.</string>
+    <string name="speech_error">Nie udało się odczytać tekstu. Spróbuj ponownie.</string>
+    <string name="share_error">Nie udało się udostępnić audio. Spróbuj ponownie lub zapisz WAV.</string>
+    <string name="share_title">Udostępnij nagranie</string>
+</resources>
