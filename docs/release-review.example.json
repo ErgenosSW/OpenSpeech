@@ -1,0 +1,44 @@
+{
+  "dependencyLockSha256": null,
+  "weightsPermission": {
+    "status": "pending",
+    "evidence": null,
+    "sha256": null
+  },
+  "baseModelPermission": {
+    "status": "pending",
+    "evidence": null,
+    "sha256": null
+  },
+  "apkComponents": {
+    "status": "pending",
+    "evidence": null,
+    "sha256": null
+  },
+  "correspondingSource": {
+    "status": "pending",
+    "evidence": null,
+    "sha256": null
+  },
+  "notices": {
+    "status": "pending",
+    "evidence": null,
+    "sha256": null
+  },
+  "deviceTests": {
+    "status": "pending",
+    "evidence": null,
+    "sha256": null
+  },
+  "reviewInputsSha256": null,
+  "hostTests": {
+    "status": "pending",
+    "evidence": null,
+    "sha256": null
+  },
+  "finalApkReview": {
+    "status": "pending",
+    "evidence": null,
+    "sha256": null
+  }
+}

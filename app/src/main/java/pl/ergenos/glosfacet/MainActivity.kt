@@ -21,7 +21,6 @@ import android.view.View
 import android.view.WindowInsets
 import android.view.inputmethod.InputMethodManager
 import android.widget.*
-import com.k2fsa.sherpa.onnx.*
 import java.io.File
 import java.io.FileOutputStream
 import java.nio.ByteBuffer
@@ -31,15 +30,9 @@ import java.util.concurrent.Executors
 import java.util.concurrent.atomic.AtomicBoolean
 
 class MainActivity : Activity() {
-    companion object { private val modelCopyLock = Any() }
-    // JNI in sherpa-onnx 1.12.20 looks up invoke(float[]): Integer explicitly.
-    // An invokedynamic lambda only exposes invoke(Object), which breaks that lookup.
-    private class SynthesisCallback(private val cancelled: AtomicBoolean) : (FloatArray) -> Int {
-        override fun invoke(samples: FloatArray): Int = if (cancelled.get()) 0 else 1
-    }
     private val worker = Executors.newSingleThreadExecutor()
     private val cancelled = AtomicBoolean(false)
-    private var engine: OfflineTts? = null
+    private var engine: OfflineVoice? = null
     private var player: MediaPlayer? = null
     private var ready = false
     private var busy = false
@@ -139,7 +132,21 @@ class MainActivity : Activity() {
         fun add(view: View, top: Int = 0) {
             column.addView(view, LinearLayout.LayoutParams(-1, -2).apply { topMargin = dp(top) })
         }
-        add(label("OpenSpeech", 30f).apply { setTypeface(null, Typeface.BOLD) })
+        val heading = LinearLayout(this).apply { orientation = LinearLayout.HORIZONTAL; gravity = Gravity.CENTER_VERTICAL }
+        heading.addView(label("OpenSpeech", 30f).apply { setTypeface(null, Typeface.BOLD) }, LinearLayout.LayoutParams(0,-2,1f))
+        heading.addView(Button(this).apply {
+            text = "⋮"; textSize = 24f; contentDescription = "Opcje"
+            minWidth = dp(48); minHeight = dp(48)
+            setOnClickListener { anchor ->
+                PopupMenu(this@MainActivity, anchor).apply {
+                    menu.add("Licencje i źródła").setOnMenuItemClickListener {
+                        startActivity(Intent(this@MainActivity, LicensesActivity::class.java)); true
+                    }
+                    show()
+                }
+            }
+        }, LinearLayout.LayoutParams(dp(48),dp(48)))
+        add(heading)
         input = EditText(this).apply {
             hint = "Co chcesz powiedzieć?"; textSize = 22f
             setTextColor(ink); setHintTextColor(muted); gravity = Gravity.TOP or Gravity.START
@@ -297,37 +304,14 @@ class MainActivity : Activity() {
     private fun initializeVoice() {
         worker.execute {
             try {
-                val root = File(filesDir, "voice-v1")
-                // Copy once: native phonemizer needs ordinary filesystem paths.
-                val marker = File(root, ".complete")
-                synchronized(modelCopyLock) {
-                    if (!marker.exists()) {
-                        root.mkdirs(); copyAssets("voice", root); marker.writeText("1")
-                    }
-                }
-                val model = root.listFiles()?.singleOrNull { it.extension == "onnx" }
-                    ?: error("Brak lub niejednoznaczny model głosu")
-                engine = OfflineTts(config = OfflineTtsConfig(
-                    model = OfflineTtsModelConfig(vits = OfflineTtsVitsModelConfig(
-                        model = model.absolutePath,
-                        tokens = File(root, "tokens.txt").absolutePath,
-                        dataDir = File(root, "espeak-ng-data").absolutePath
-                    ), numThreads = 2), maxNumSentences = 1
-                ))
-                check(engine!!.sampleRate() > 0) { "Nie można załadować głosu" }
+                val root = VoiceAssets.prepare(this)
+                if (dead) return@execute
+                engine = OfflineVoice(root)
                 ui { ready = true; status.text = getString(R.string.ready); updateButtons() }
             } catch (e: Throwable) {
                 android.util.Log.e("OpenSpeech", "Voice initialization", e)
                 ui { status.text = getString(R.string.init_error) }
             }
-        }
-    }
-    private fun copyAssets(path: String, dest: File) {
-        val children = assets.list(path) ?: emptyArray()
-        if (children.isNotEmpty()) {
-            dest.mkdirs(); children.forEach { copyAssets("$path/$it", File(dest, it)) }
-        } else {
-            assets.open(path).use { src -> dest.outputStream().use { src.copyTo(it) } }
         }
     }
     private fun ui(block: () -> Unit) { runOnUiThread { if (!dead) block() } }
@@ -369,9 +353,7 @@ class MainActivity : Activity() {
                 var rate = cachedRate
                 var wav = cachedWav
                 if (samples == null || wav == null) {
-                    val generated = engine!!.generateWithCallback(
-                        text = text, speed = requestedSpeed, callback = SynthesisCallback(cancelled)
-                    )
+                    val generated = engine!!.generate(text, requestedSpeed, cancelled)
                     if (cancelled.get()) throw java.util.concurrent.CancellationException()
                     check(generated.samples.isNotEmpty()) { "Puste nagranie" }
                     SpeechLoudness.normalize(generated.samples)
@@ -451,8 +433,8 @@ class MainActivity : Activity() {
     }
     private fun stopReading() {
         if (!busy) return
-        cancelled.set(true)
-        // The callback cancels native synthesis. Keep buttons locked until it returns.
+        cancelled.set(true); engine?.cancel()
+        // The cancellation flag stops synthesis. Keep buttons locked until it returns.
         if (player != null) {
             ++generation; finishReading("Zatrzymano. Nagranie możesz zapisać.")
         } else {
@@ -507,7 +489,7 @@ class MainActivity : Activity() {
         stopReading(); super.onPause()
     }
     override fun onDestroy() {
-        dead = true; cancelled.set(true); ++generation
+        dead = true; cancelled.set(true); engine?.cancel(); ++generation
         player?.release(); player = null
         audioManager.abandonAudioFocusRequest(focus)
         worker.execute { engine?.release(); engine = null; audio?.delete() }

@@ -1,0 +1,44 @@
+{
+  "dependencyLockSha256": "463cfc57bc4b37edd1a40886bc4310edf5900240e4e6cfe3c773afe6910c6ef0",
+  "reviewInputsSha256": "92c756709b6333c6f9fb01d7fb671757a6c13c01c4516c732a1eca1383a6f587",
+  "weightsPermission": {
+    "status": "approved",
+    "evidence": "docs/audit/matcha-license-review.md",
+    "sha256": "3f5378e205c6feaf71e06a6304c5c5eeb90cb194e18a365466b4458b6b47a045"
+  },
+  "baseModelPermission": {
+    "status": "approved",
+    "evidence": "docs/audit/matcha-license-review.md",
+    "sha256": "3f5378e205c6feaf71e06a6304c5c5eeb90cb194e18a365466b4458b6b47a045"
+  },
+  "apkComponents": {
+    "status": "approved",
+    "evidence": "docs/audit/apk-components.md",
+    "sha256": "a3c910c165aa2fd34f3685b100730ab04c2f88b45430da226b1855826a2cb02d"
+  },
+  "correspondingSource": {
+    "status": "approved",
+    "evidence": "docs/audit/corresponding-source.md",
+    "sha256": "27a99d97209834a9113707819c87b44e3cff0326bfa1002f8f12d9fd83cce5e5"
+  },
+  "notices": {
+    "status": "approved",
+    "evidence": "docs/audit/notices-review.md",
+    "sha256": "b24eb0a0530748ea7d47afb921ba181723956dfc9cfcdff899e178fa37595c32"
+  },
+  "hostTests": {
+    "status": "approved",
+    "evidence": "docs/audit/host-tests.md",
+    "sha256": "16cac55340992bd24a566fba90ea4cb1cc9e2d6c64bc407236a69f27a08cfb35"
+  },
+  "deviceTests": {
+    "status": "pending",
+    "evidence": null,
+    "sha256": null
+  },
+  "finalApkReview": {
+    "status": "approved",
+    "evidence": "docs/audit/final-apk-review.json",
+    "sha256": "10e36fbc3dd9efc6f6f7d2be44de085b879bae076b03edfd4bd7469d00531eea"
+  }
+}

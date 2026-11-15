@@ -1,0 +1,32 @@
+{
+  "scope": "Debug APK used to verify component selection; final signed APK checked separately",
+  "applicationId": "pl.ergenos.glosfacet",
+  "versionCode": 7,
+  "nativeLibraries": [
+    "lib/arm64-v8a/libonnxruntime.so",
+    "lib/arm64-v8a/libonnxruntime4j_jni.so",
+    "lib/arm64-v8a/libopenspeech-phonemes.so",
+    "lib/x86_64/libonnxruntime.so",
+    "lib/x86_64/libonnxruntime4j_jni.so",
+    "lib/x86_64/libopenspeech-phonemes.so"
+  ],
+  "voiceFiles": 14,
+  "voiceHashesVerified": true,
+  "retiredComponents": [],
+  "networkPermission": false,
+  "microphonePermission": false,
+  "licenseFiles": [
+    "assets/licenses/Matcha-ATTRIBUTION.md",
+    "assets/licenses/Matcha-CC-BY-SA-4.0.txt",
+    "assets/licenses/Matcha-MODEL_CARD.md",
+    "assets/licenses/OpenSpeech-LICENSE",
+    "assets/licenses/espeak-ng-GPL-3.0.txt",
+    "assets/licenses/onnxruntime-MIT.txt",
+    "assets/licenses/onnxruntime-ThirdPartyNotices.txt",
+    "assets/licenses/ucd-Unicode-LICENSE.txt",
+    "assets/licenses/Apache-2.0.txt",
+    "assets/licenses/HiFi-GAN-MIT.txt",
+    "assets/licenses/Matcha-TTS-MIT.txt",
+    "assets/licenses/gradle-runtime-NOTICES.txt"
+  ]
+}

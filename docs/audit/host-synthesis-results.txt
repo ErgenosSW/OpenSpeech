@@ -1,0 +1,9 @@
+Frontend parity: 17 cases passed
+sample=01 synthesis_seconds=0.1561 audio_seconds=2.2059
+sample=02 synthesis_seconds=0.1959 audio_seconds=2.7864
+sample=03 synthesis_seconds=0.0827 audio_seconds=1.1378
+sample=04 synthesis_seconds=0.0391 audio_seconds=0.3135
+sample=05 synthesis_seconds=0.0285 audio_seconds=0.2322
+sample=06 synthesis_seconds=0.1067 audio_seconds=1.7299
+sample=07 synthesis_seconds=0.2655 audio_seconds=4.5395
+Tempo and cancellation passed

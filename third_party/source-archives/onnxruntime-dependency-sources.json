@@ -1,0 +1,170 @@
+[
+  {
+    "component": "abseil_cpp",
+    "url": "https://github.com/abseil/abseil-cpp/archive/refs/tags/20250512.0.zip",
+    "upstreamSha1": "3d6ff7e7ce144d9a53a53bef1f1bf79e1da4b8e1",
+    "sha256": "520551a68a57f58be691151d59918a7ddcd8d727f81c0bb530bca272f985e674",
+    "bytes": 3174083,
+    "path": "abseil_cpp-source.zip"
+  },
+  {
+    "component": "date",
+    "url": "https://github.com/HowardHinnant/date/archive/refs/tags/v3.0.1.zip",
+    "upstreamSha1": "2dac0c81dc54ebdd8f8d073a75c053b04b56e159",
+    "sha256": "f4300b96f7a304d4ef9bf6e0fa3ded72159f7f2d0f605bdde3e030a0dba7cf9f",
+    "bytes": 941286,
+    "path": "date-source.zip"
+  },
+  {
+    "component": "dlpack",
+    "url": "https://github.com/dmlc/dlpack/archive/5c210da409e7f1e51ddf445134a4376fdbd70d7d.zip",
+    "upstreamSha1": "e499c86e4e5c5268a87661d7ea39c27fae10907c",
+    "sha256": "14e8b3f03ab7461f56b3fa7ffd4acfb6e6a65f895dc4b50548cab259229afcbd",
+    "bytes": 228363,
+    "path": "dlpack-source.zip"
+  },
+  {
+    "component": "eigen",
+    "url": "https://github.com/eigen-mirror/eigen/archive/1d8b82b0740839c0de7f1242a3585e3390ff5f33/eigen-1d8b82b0740839c0de7f1242a3585e3390ff5f33.zip",
+    "upstreamSha1": "05b19b49e6fbb91246be711d801160528c135e34",
+    "sha256": "6a60d76351f97132669daeeb721d6bf14b008101883ad2d687a3201c5c461eb0",
+    "bytes": 4075744,
+    "path": "eigen-source.zip"
+  },
+  {
+    "component": "flatbuffers",
+    "url": "https://github.com/google/flatbuffers/archive/refs/tags/v23.5.26.zip",
+    "upstreamSha1": "59422c3b5e573dd192fead2834d25951f1c1670c",
+    "sha256": "57bd580c0772fd1a726c34ab8bf05325293bc5f9c165060a898afa1feeeb95e1",
+    "bytes": 3209602,
+    "path": "flatbuffers-source.zip"
+  },
+  {
+    "component": "fp16",
+    "url": "https://github.com/Maratyszcza/FP16/archive/0a92994d729ff76a58f692d3028ca1b64b145d91.zip",
+    "upstreamSha1": "b985f6985a05a1c03ff1bb71190f66d8f98a1494",
+    "sha256": "e66e65515fa09927b348d3d584c68be4215cfe664100d01c9dbc7655a5716d70",
+    "bytes": 91373,
+    "path": "fp16-source.zip"
+  },
+  {
+    "component": "fxdiv",
+    "url": "https://github.com/Maratyszcza/FXdiv/archive/63058eff77e11aa15bf531df5dd34395ec3017c8.zip",
+    "upstreamSha1": "a5658f4036402dbca7cebee32be57fb8149811e1",
+    "sha256": "3d7b0e9c4c658a84376a1086126be02f9b7f753caa95e009d9ac38d11da444db",
+    "bytes": 16646,
+    "path": "fxdiv-source.zip"
+  },
+  {
+    "component": "googlexnnpack",
+    "url": "https://github.com/google/XNNPACK/archive/fe98e0b93565382648129271381c14d6205255e3.zip",
+    "upstreamSha1": "14f61dcf17cec2cde34ba2dcf61d6f24bf6059f3",
+    "sha256": "7aeeb8c6e134e0866655bbb7a0387166eba36bcd436a0c3e0f4c5286426b785f",
+    "bytes": 23353924,
+    "path": "googlexnnpack-source.zip"
+  },
+  {
+    "component": "json",
+    "url": "https://github.com/nlohmann/json/archive/refs/tags/v3.11.3.zip",
+    "upstreamSha1": "5e88795165cc8590138d1f47ce94ee567b85b4d6",
+    "sha256": "04022b05d806eb5ff73023c280b68697d12b93e1b7267a0b22a1a39ec7578069",
+    "bytes": 8489998,
+    "path": "json-source.zip"
+  },
+  {
+    "component": "microsoft_gsl",
+    "url": "https://github.com/microsoft/GSL/archive/refs/tags/v4.0.0.zip",
+    "upstreamSha1": "cf368104cd22a87b4dd0c80228919bb2df3e2a14",
+    "sha256": "eb91fcb10a6aa5ccb1d224e07a56c8ecffe9a1bb601fa1848276ec46a2200bfb",
+    "bytes": 78670,
+    "path": "microsoft_gsl-source.zip"
+  },
+  {
+    "component": "mimalloc",
+    "url": "https://github.com/microsoft/mimalloc/archive/refs/tags/v2.1.1.zip",
+    "upstreamSha1": "d5ee7d34223d0567892db5179849939c8769dc41",
+    "sha256": "23b1bffb2eff57b1e3cb8edc9410d448db2bb43400206a151e107dcabcad773a",
+    "bytes": 1301043,
+    "path": "mimalloc-source.zip"
+  },
+  {
+    "component": "mp11",
+    "url": "https://github.com/boostorg/mp11/archive/refs/tags/boost-1.82.0.zip",
+    "upstreamSha1": "9bc9e01dffb64d9e0773b2e44d2f22c51aace063",
+    "sha256": "81431bdc44c439a324e02c07ed067f8f556419fd86f2d8b486ff568df6aac899",
+    "bytes": 232716,
+    "path": "mp11-source.zip"
+  },
+  {
+    "component": "onnx",
+    "url": "https://github.com/onnx/onnx/archive/refs/tags/v1.18.0.zip",
+    "upstreamSha1": "f156d032a3af91b66d554e11158b33ca77bbb1f2",
+    "sha256": "23b6f113b05ac7aa7fac0128df69aca2eabd8c8f92d2ebe39fa741a47addec6f",
+    "bytes": 17108643,
+    "path": "onnx-source.zip"
+  },
+  {
+    "component": "protobuf",
+    "url": "https://github.com/protocolbuffers/protobuf/archive/refs/tags/v21.12.zip",
+    "upstreamSha1": "7cf2733949036c7d52fda017badcab093fe73bfa",
+    "sha256": "6a31b662deaeb0ac35e6287bda2f3369b19836e6c9f8828d4da444346f420298",
+    "bytes": 7180794,
+    "path": "protobuf-source.zip"
+  },
+  {
+    "component": "psimd",
+    "url": "https://github.com/Maratyszcza/psimd/archive/072586a71b55b7f8c584153d223e95687148a900.zip",
+    "upstreamSha1": "1f5454b01f06f9656b77e4a5e2e31d7422487013",
+    "sha256": "dc615342bcbe51ca885323e51b68b90ed9bb9fa7df0f4419dbfa0297d5e837b7",
+    "bytes": 8327,
+    "path": "psimd-source.zip"
+  },
+  {
+    "component": "pthreadpool",
+    "url": "https://github.com/google/pthreadpool/archive/4e80ca24521aa0fb3a746f9ea9c3eaa20e9afbb0.zip",
+    "upstreamSha1": "bd4ea65c8292801e9555b527a0ecbb2e0092c917",
+    "sha256": "6d373fa7e2b899605fc3b6e72171a71bccbaf9d4d596b7f514535c4ffb966b3b",
+    "bytes": 92003,
+    "path": "pthreadpool-source.zip"
+  },
+  {
+    "component": "pytorch_cpuinfo",
+    "url": "https://github.com/pytorch/cpuinfo/archive/8a1772a0c5c447df2d18edf33ec4603a8c9c04a6.zip",
+    "upstreamSha1": "85bf8a60dae026b99b6ccd78606c85ed83bfb2cd",
+    "sha256": "4bf314b3f04db2fd984fef38a7e278e702b74297ef0af592b73296edba02b9d4",
+    "bytes": 3850914,
+    "path": "pytorch_cpuinfo-source.zip"
+  },
+  {
+    "component": "re2",
+    "url": "https://github.com/google/re2/archive/refs/tags/2024-07-02.zip",
+    "upstreamSha1": "646e1728269cde7fcef990bf4a8e87b047882e88",
+    "sha256": "a835fe55fbdcd8e80f38584ab22d0840662c67f2feb36bd679402da9641dc71e",
+    "bytes": 451539,
+    "path": "re2-source.zip"
+  },
+  {
+    "component": "safeint",
+    "url": "https://github.com/dcleblanc/SafeInt/archive/refs/tags/3.0.28.zip",
+    "upstreamSha1": "23f252040ff6cb9f1fd18575b32fa8fb5928daac",
+    "sha256": "3ffbd9a2fdff45da77da3e7269e9aa512ea43bed5c38ce8fd8f3d1068a032c3f",
+    "bytes": 626378,
+    "path": "safeint-source.zip"
+  },
+  {
+    "component": "kleidiai",
+    "url": "https://github.com/ARM-software/kleidiai/archive/refs/tags/v1.9.0.tar.gz",
+    "upstreamSha1": "a2765979f64efb173a4b8ba4de39dcba9c655786",
+    "sha256": "3c025a3049efc18c3214656fc5ee5e4ddb63408193cb6bf4ec9548795ac3d153",
+    "bytes": 2064852,
+    "path": "kleidiai-source.zip"
+  },
+  {
+    "component": "duktape",
+    "url": "https://github.com/svaarala/duktape/releases/download/v2.7.0/duktape-2.7.0.tar.xz",
+    "upstreamSha1": "8200c8e417dbab7adcc12c4dbdef7651cfc55794",
+    "sha256": "90f8d2fa8b5567c6899830ddef2c03f3c27960b11aca222fa17aa7ac613c2890",
+    "bytes": 1026524,
+    "path": "duktape-source.zip"
+  }
+]

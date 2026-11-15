@@ -1,0 +1,655 @@
+{
+  "scope": "Resolved releaseRuntimeClasspath; metadata-only modules are identified separately",
+  "components": [
+    {
+      "module": "androidx.annotation:annotation-experimental:1.4.1",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "annotation-experimental-1.4.1.aar",
+          "sha256": "6bd4c7c7476f8260cd3bdbb81183583e93fc9f790c27dea7dc314181cbf87aa0",
+          "bytes": 39841
+        },
+        {
+          "name": "annotation-experimental-1.4.1.pom",
+          "sha256": "fe57b228417f4d7c677903dc61fb4a7cf993d603499de26d8d8113e477cc4f1b",
+          "bytes": 2031
+        },
+        {
+          "name": "annotation-experimental-1.4.1.module",
+          "sha256": "2ac2f7106e12f263425b4a4dfc80989447fb895675fe902d86759aa74fd12b7d",
+          "bytes": 3950
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.annotation-annotation-experimental-1.4.1-sources.jar"
+    },
+    {
+      "module": "androidx.annotation:annotation-jvm:1.8.1",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "annotation-jvm-1.8.1.module",
+          "sha256": "c959e3b0cdc75c15efe01605fa56aa79f033e39238e150638b8fabde6aa121a0",
+          "bytes": 3225
+        },
+        {
+          "name": "annotation-jvm-1.8.1.jar",
+          "sha256": "9aab326d9492800991854360ac248f493ce7f7c3183519309b78ace9e240f6f6",
+          "bytes": 56126
+        },
+        {
+          "name": "annotation-jvm-1.8.1.pom",
+          "sha256": "d49203733aa6fae046c3a3de4e796eed347595755486a64273989844759750b4",
+          "bytes": 1826
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.annotation-annotation-jvm-1.8.1-sources.jar"
+    },
+    {
+      "module": "androidx.annotation:annotation:1.8.1",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "annotation-1.8.1.pom",
+          "sha256": "b71225974ec087eb96c25ef6819f55b1c22f530e85ca446ba735fb66ed04ff5c",
+          "bytes": 2008
+        },
+        {
+          "name": "annotation-metadata-1.8.1.jar",
+          "sha256": "fa5e67ffcc52a0413f4b39c2737b43c1ba6c6975b4bd4a4ea8627549e766285b",
+          "bytes": 8290
+        },
+        {
+          "name": "annotation-1.8.1.module",
+          "sha256": "e6386e85afdd865044e216575e493ed39a63a6325bd925379a21429c3941c8b5",
+          "bytes": 34460
+        }
+      ],
+      "codeArtifact": false
+    },
+    {
+      "module": "androidx.arch.core:core-common:2.2.0",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "core-common-2.2.0.module",
+          "sha256": "edf4200cfdc2d946232252c99e5dcb9c61bb909eb5450b2613d1d4fdc974b981",
+          "bytes": 3079
+        },
+        {
+          "name": "core-common-2.2.0.jar",
+          "sha256": "65308a06b1c00ee186cb9e19321383f043b993813f1522c47f4a3e3303bdba41",
+          "bytes": 11657
+        },
+        {
+          "name": "core-common-2.2.0.pom",
+          "sha256": "1e17d4af8d6425be2a69f8af4d654a87e0456259a9eef1542869bcb023547e28",
+          "bytes": 1704
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.arch.core-core-common-2.2.0-sources.jar"
+    },
+    {
+      "module": "androidx.arch.core:core-runtime:2.2.0",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "core-runtime-2.2.0.aar",
+          "sha256": "a1be5e0caa2b07623862af6ae21b3ab0718123245184d0e30dea81b53f990a47",
+          "bytes": 7577
+        },
+        {
+          "name": "core-runtime-2.2.0.module",
+          "sha256": "a8b17513949e5db6c9601c30be19df953762dd877512f1e2cfcfae81d2440944",
+          "bytes": 3386
+        },
+        {
+          "name": "core-runtime-2.2.0.pom",
+          "sha256": "0f953706598140d9d8735cdd5aeb1fa35933f4e2f31c0bf3eb81a053a4c8c1a5",
+          "bytes": 1920
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.arch.core-core-runtime-2.2.0-sources.jar"
+    },
+    {
+      "module": "androidx.collection:collection-jvm:1.4.2",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "collection-jvm-1.4.2.pom",
+          "sha256": "adbb379e2b160f08e63e341ad04bbcc7033f6d868ec51ac11e4334642a4e39ef",
+          "bytes": 2414
+        },
+        {
+          "name": "collection-jvm-1.4.2.module",
+          "sha256": "aad6b3536c0f0e570aa733d5141d70fa6b9b3add370f73a311ca4ca5dee25448",
+          "bytes": 4570
+        },
+        {
+          "name": "collection-jvm-1.4.2.jar",
+          "sha256": "984ce9bd780055eafb8a105aca3f514686bf7b1b6272ec7c645a98ce40fc7db4",
+          "bytes": 775789
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.collection-collection-jvm-1.4.2-sources.jar"
+    },
+    {
+      "module": "androidx.collection:collection:1.4.2",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "collection-1.4.2.pom",
+          "sha256": "4f2615a17aeacfe12b68298214a19f2a19c68c66d590075bdbbfb659ebce2b7f",
+          "bytes": 2425
+        },
+        {
+          "name": "collection-1.4.2.module",
+          "sha256": "0326d2cf5adbe592312810ca1f71c6c0cc30f753c43f07c7402361b788a7784c",
+          "bytes": 30696
+        }
+      ],
+      "codeArtifact": false
+    },
+    {
+      "module": "androidx.concurrent:concurrent-futures:1.1.0",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "concurrent-futures-1.1.0.pom",
+          "sha256": "748a34eb5d13d19d187adecaea82667fded5f1b0b98a655e13ed2e4a8b3d8ae6",
+          "bytes": 1888
+        },
+        {
+          "name": "concurrent-futures-1.1.0.module",
+          "sha256": "77639a0b051e22510bad93affcea0ebd781ef124bf9b7621a95749937bcfcdfd",
+          "bytes": 3485
+        },
+        {
+          "name": "concurrent-futures-1.1.0.jar",
+          "sha256": "0ce067c514a0d1049d1bebdf709e344ed3266fe9744275682937cdcb13334e9e",
+          "bytes": 25987
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.concurrent-concurrent-futures-1.1.0-sources.jar"
+    },
+    {
+      "module": "androidx.core:core:1.15.0",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "core-1.15.0.pom",
+          "sha256": "e168ae56064b8e5a40bce415ef95ffd5a813abb5456d2775f0fef426ed49e35a",
+          "bytes": 3853
+        },
+        {
+          "name": "core-1.15.0.aar",
+          "sha256": "432b85a1974076e14b487ece4a28c59a84f1b9efc3fc8be72cd7f05d32055e51",
+          "bytes": 1336135
+        },
+        {
+          "name": "core-1.15.0.module",
+          "sha256": "e8a6c386e1765d870012fed2221173d4a2e8d2fd5aec732c51afb4a9f4684519",
+          "bytes": 6704
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.core-core-1.15.0-sources.jar"
+    },
+    {
+      "module": "androidx.interpolator:interpolator:1.0.0",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "interpolator-1.0.0.aar",
+          "sha256": "33193135a64fe21fa2c35eec6688f1a76e512606c0fc83dc1b689e37add7732a",
+          "bytes": 7669
+        },
+        {
+          "name": "interpolator-1.0.0.pom",
+          "sha256": "0ddc07cc39699f48ecd9ec894b5830c0f09e22e82959294edf37217224c88b7b",
+          "bytes": 1608
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.interpolator-interpolator-1.0.0-sources.jar"
+    },
+    {
+      "module": "androidx.lifecycle:lifecycle-common:2.6.2",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "lifecycle-common-2.6.2.jar",
+          "sha256": "f34831b6c71cd844e1d35d1be49d5e79447c5ab856346531b1e8676fda7374b1",
+          "bytes": 52314
+        },
+        {
+          "name": "lifecycle-common-2.6.2.module",
+          "sha256": "0fa7f28f5cff8a406a4f7870b243cb0d6d7a7c20faa7a2becaff5907ae12f9cc",
+          "bytes": 16947
+        },
+        {
+          "name": "lifecycle-common-2.6.2.pom",
+          "sha256": "57304cdac4da289a6ecdd0738e16b1d8858f1ef8e9fabe2d65a963719fd81dba",
+          "bytes": 6581
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.lifecycle-lifecycle-common-2.6.2-sources.jar"
+    },
+    {
+      "module": "androidx.lifecycle:lifecycle-runtime:2.6.2",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "lifecycle-runtime-2.6.2.pom",
+          "sha256": "8175255546e2a5f510865f84ace680660954730240b1905d9175b4345beda977",
+          "bytes": 6877
+        },
+        {
+          "name": "lifecycle-runtime-2.6.2.module",
+          "sha256": "ea0131846abe1fe9dea59ac6dfe1f0fb9d8b6d600c9eff9a1fd4ad5ee5e7cbc7",
+          "bytes": 16797
+        },
+        {
+          "name": "lifecycle-runtime-2.6.2.aar",
+          "sha256": "4867fd5279742fba8388821930cb2affe06d81a52814e7e41e70392ea0ef887c",
+          "bytes": 21738
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.lifecycle-lifecycle-runtime-2.6.2-sources.jar"
+    },
+    {
+      "module": "androidx.profileinstaller:profileinstaller:1.3.0",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "profileinstaller-1.3.0.module",
+          "sha256": "a16fe511e599c2042da122be09569aecd3f4f90cad37ef08bd0bbc39118c92c8",
+          "bytes": 3761
+        },
+        {
+          "name": "profileinstaller-1.3.0.aar",
+          "sha256": "34e8b2bfc74e23c1525e3da903ae449b7f1b440aef45e18159ee470e91997f48",
+          "bytes": 47529
+        },
+        {
+          "name": "profileinstaller-1.3.0.pom",
+          "sha256": "12cbc01c8a5ae4b412caf3c5a0662ccd28002dedcff1dbe6c2ab3665be9f758c",
+          "bytes": 2418
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.profileinstaller-profileinstaller-1.3.0-sources.jar"
+    },
+    {
+      "module": "androidx.startup:startup-runtime:1.1.1",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "startup-runtime-1.1.1.pom",
+          "sha256": "f4114b5c6859bb1bc3caf281cb6d6f25998fa7f7292c64ceaea74a93210e746b",
+          "bytes": 1949
+        },
+        {
+          "name": "startup-runtime-1.1.1.module",
+          "sha256": "cfd96cf6450c6e2b697598924729ad9a0495c5a4fcf4ebee7e2f81b07e415865",
+          "bytes": 3039
+        },
+        {
+          "name": "startup-runtime-1.1.1.aar",
+          "sha256": "e0a6329a371262fe4c450372b70fdaf33b769ef6917094723787cfce896b1dd3",
+          "bytes": 19371
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.startup-startup-runtime-1.1.1-sources.jar"
+    },
+    {
+      "module": "androidx.tracing:tracing:1.2.0",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "tracing-1.2.0.pom",
+          "sha256": "f34bec4eb58871d31002901377108aaa1ebfe77fa6d882b8b86200b158e26ea1",
+          "bytes": 1968
+        },
+        {
+          "name": "tracing-1.2.0.module",
+          "sha256": "d0d8d486b6bd33206dbf3f1a6d167e9b43c268ea63c3321c886b1543ad05ece3",
+          "bytes": 3429
+        },
+        {
+          "name": "tracing-1.2.0.aar",
+          "sha256": "6faa90390d1fdbf0adb9a99bf99de67b94c6c6f35aea9510593a9d17973736a2",
+          "bytes": 6060
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.tracing-tracing-1.2.0-sources.jar"
+    },
+    {
+      "module": "androidx.versionedparcelable:versionedparcelable:1.1.1",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "versionedparcelable-1.1.1.aar",
+          "sha256": "57e8d93260d18d5b9007c9eed3c64ad159de90c8609ebfc74a347cbd514535a4",
+          "bytes": 31061
+        },
+        {
+          "name": "versionedparcelable-1.1.1.pom",
+          "sha256": "5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f",
+          "bytes": 1643
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/androidx.versionedparcelable-versionedparcelable-1.1.1-sources.jar"
+    },
+    {
+      "module": "com.google.guava:listenablefuture:1.0",
+      "declaredLicenses": [],
+      "artifacts": [
+        {
+          "name": "listenablefuture-1.0.pom",
+          "sha256": "53873caf26bc1ed8a567ea6c939ab2aaa3f47a5e32d5cade95ddf5080d23238a",
+          "bytes": 2226
+        },
+        {
+          "name": "listenablefuture-1.0.jar",
+          "sha256": "e4ad7607e5c0477c6f890ef26a49cb8d1bb4dffb650bab4502afee64644e3069",
+          "bytes": 3149
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/com.google.guava-listenablefuture-1.0-sources.jar"
+    },
+    {
+      "module": "com.microsoft.onnxruntime:onnxruntime-android:1.23.2",
+      "declaredLicenses": [
+        {
+          "name": "MIT License",
+          "url": "https://opensource.org/licenses/MIT"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "onnxruntime-android-1.23.2.aar",
+          "sha256": "82048d1f462218adae4ba76477089ab0ba76093d84f733540066db1a8ba6b827",
+          "bytes": 30241654
+        },
+        {
+          "name": "onnxruntime-android-1.23.2.pom",
+          "sha256": "c0a71d517210cf71bb1fca22b5367b55073b8bdcc29f1054d716db8949b09021",
+          "bytes": 1520
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/source-archives/onnxruntime-v1.23.2-sources.tar.gz"
+    },
+    {
+      "module": "org.jetbrains.kotlin:kotlin-stdlib-common:2.1.20",
+      "declaredLicenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "kotlin-stdlib-common-2.1.20.pom",
+          "sha256": "d622e30005660629744268fa89128fb7ded4d42e174ceb081f67f7056ac9a8bb",
+          "bytes": 1842
+        },
+        {
+          "name": "kotlin-stdlib-common-2.1.20.module",
+          "sha256": "94d0ad2b2319b85c40351cf9ee7077da12dd3850392e6cf10a3fe8159fbc73f7",
+          "bytes": 627
+        }
+      ],
+      "codeArtifact": false
+    },
+    {
+      "module": "org.jetbrains.kotlin:kotlin-stdlib:2.1.20",
+      "declaredLicenses": [
+        {
+          "name": "The Apache License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "kotlin-stdlib-2.1.20-all.jar",
+          "sha256": "81e07de34e84b29e14f3fdef902f4bc4cf1d5da959b867df683fbe1cc54ce1e1",
+          "bytes": 192867
+        },
+        {
+          "name": "kotlin-stdlib-2.1.20.pom",
+          "sha256": "6750e1799ee502077dae5c3d599796f667606f60d35e95cb790448dc7912b40b",
+          "bytes": 2322
+        },
+        {
+          "name": "kotlin-stdlib-2.1.20.module",
+          "sha256": "55d296e45445f6c88699b0896706ea9550af87ad94873dc13b65bebbd5660a6f",
+          "bytes": 12432
+        },
+        {
+          "name": "kotlin-stdlib-2.1.20.jar",
+          "sha256": "1bcc74e8ce84e2c25eaafde10f1248349cce3062b6e36978cbeec610db1e930a",
+          "bytes": 1724057
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/org.jetbrains.kotlin-kotlin-stdlib-2.1.20-sources.jar"
+    },
+    {
+      "module": "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "kotlinx-coroutines-android-1.6.4.module",
+          "sha256": "68516559e6f84a621b9783cd892a64630ccd7875843588ddb3f0501425e33f15",
+          "bytes": 3567
+        },
+        {
+          "name": "kotlinx-coroutines-android-1.6.4.pom",
+          "sha256": "49f7e32474d64396ece2c014dbdc2204d665cfa8fd73e69a6a1b3fab138198b7",
+          "bytes": 2226
+        },
+        {
+          "name": "kotlinx-coroutines-android-1.6.4.jar",
+          "sha256": "3fdc0eed5bc4b83ee9622774520a2db25470370eacd1581cac1e37704f095b00",
+          "bytes": 19520
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/org.jetbrains.kotlinx-kotlinx-coroutines-android-1.6.4-sources.jar"
+    },
+    {
+      "module": "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.4",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "kotlinx-coroutines-bom-1.6.4.pom",
+          "sha256": "ab2614855fba66aa8a42514dbe3d5a884315ffe1ed63f5932e710a8006245ce1",
+          "bytes": 4291
+        }
+      ],
+      "codeArtifact": false
+    },
+    {
+      "module": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "kotlinx-coroutines-core-jvm-1.6.4.jar",
+          "sha256": "c24c8bb27bb320c4a93871501a7e5e0c61607638907b197aef675513d4c820be",
+          "bytes": 1476653
+        },
+        {
+          "name": "kotlinx-coroutines-core-jvm-1.6.4.pom",
+          "sha256": "09d960f85922903c2e52e126b17e9fa5020b425c469ec61944b3c01835547224",
+          "bytes": 2217
+        },
+        {
+          "name": "kotlinx-coroutines-core-jvm-1.6.4.module",
+          "sha256": "0d94c8a41483e7c2707ebd693e1b1357a84152998ce85550ebbc54ca4321a3a7",
+          "bytes": 3389
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/org.jetbrains.kotlinx-kotlinx-coroutines-core-jvm-1.6.4-sources.jar"
+    },
+    {
+      "module": "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "kotlinx-coroutines-core-1.6.4.pom",
+          "sha256": "136b4edb87a47e15251f0842f3189fa31979eb4ab51acfb4239b4bf8d16d4588",
+          "bytes": 2057
+        },
+        {
+          "name": "kotlinx-coroutines-core-metadata-1.6.4-all.jar",
+          "sha256": "ae24d84fd33c5aaba1564b168142d0f210b0e257e0a0077e32616acc59e67fb7",
+          "bytes": 86931
+        },
+        {
+          "name": "kotlinx-coroutines-core-1.6.4.module",
+          "sha256": "a6eed4a1835588e7c84fcd7b0475fce9a7b3444c870ebc797b88ba64ccf4576b",
+          "bytes": 22845
+        }
+      ],
+      "codeArtifact": false
+    },
+    {
+      "module": "org.jetbrains:annotations:13.0",
+      "declaredLicenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "artifacts": [
+        {
+          "name": "annotations-13.0.jar",
+          "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478",
+          "bytes": 17536
+        },
+        {
+          "name": "annotations-13.0.pom",
+          "sha256": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397",
+          "bytes": 4930
+        }
+      ],
+      "codeArtifact": true,
+      "source": "third_party/java-sources/org.jetbrains-annotations-13.0-sources.jar"
+    }
+  ]
+}

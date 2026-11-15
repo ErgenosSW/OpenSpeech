@@ -1,0 +1,10 @@
+{
+  "url": "https://github.com/microsoft/onnxruntime/archive/refs/tags/v1.23.2.tar.gz",
+  "originalBytes": 283165408,
+  "originalSha256": "99bcf964ce4e869d823c99b2294562a9050cbfa8e76ec81c8683cb3c7e19c2b4",
+  "repackedBytes": 31468913,
+  "repackedSha256": "c223a4812793bd3adf9fad235be7e0ecb1b3386c8e11d8732da28884af720941",
+  "includedFiles": 8133,
+  "omittedFiles": 1376,
+  "changes": "Repacked upstream source archive, omitting test datasets, pre-trained test weights and media/document images; runtime and build source retained. External dependency revisions remain pinned in cmake/deps.txt."
+}

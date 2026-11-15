@@ -1,0 +1,5 @@
+onnxruntime>=1.18
+numpy
+phonemizer>=3.2   # + libespeak-ng (brew / apt install espeak-ng)
+wordfreq          # recommended: English words that are not on the curated list
+sounddevice       # optional: --play

@@ -1,0 +1,1549 @@
+# English words and phrases pronounced the English way inside Polish speech
+# + English words of the male_voxcpm_1 training set (2026-10-02); Polish-pronounced ones are in english_detect.READ_AS_POLISH
+ac/dc
+accelerator
+account manager
+accountability
+achievement
+action points
+add-on
+adobe
+aesthetic
+affiliate
+after party
+afterparty
+afterwork
+agile
+airbnb
+airbus
+airdrop
+airplay
+airpods
+airtag
+algorithm
+aliexpress
+alignment
+all inclusive
+all-star
+alternative
+amazing
+amazon
+amazon prime
+analytics
+angular
+anyway
+app
+app store
+apple
+apple music
+apple pay
+apple store
+apple tv
+apple watch
+apps
+art director
+asap
+attachment
+audiobook
+augmented reality
+autoplay
+awesome
+azure
+babe
+baby boomers
+baby shower
+babysitter
+back office
+back-end
+backdoor
+backend
+background
+backlog
+backpack
+backpacker
+backpacking
+backstage
+backup
+bacon
+badge
+bae
+barbecue
+barber
+barbershop
+barbie
+bartender
+baseball
+basic
+basically
+basketball
+batman
+battle royale
+beatbox
+beauty
+beef
+behind the scenes
+benchmark
+benchmarking
+best friend
+best practice
+best practices
+best seller
+bestie
+big brother
+big data
+billboard
+binge watching
+binge-watching
+bitcoin
+black friday
+blame
+blind date
+bling
+blockbuster
+blockchain
+blocker
+blogger
+bluetooth
+boarding
+body positive
+body shaming
+bodybuilder
+bodybuilding
+boeing
+boilerplate
+bolt
+booking
+boomer
+booster
+bootcamp
+boss fight
+bottleneck
+bowl
+bowling
+box office
+boyfriend
+boysband
+brainstorm
+brainstorming
+branch
+brand
+brand ambassador
+brand awareness
+brandbook
+branding
+breakdance
+breakdown
+breakfast
+breaking
+breaking news
+breakpoint
+brexit
+brief
+briefing
+brownie
+brunch
+bubble
+bubble tea
+bucket list
+budget
+bug
+bug bounty
+bug report
+bugfix
+bugs
+build
+bumble
+bundle
+burger
+burger king
+burnout
+burpees
+business
+business angel
+business case
+business intelligence
+business model
+business partner
+business plan
+button
+buzz
+buzzword
+by the way
+bye
+c-level
+cache
+calisthenics
+call
+call to action
+cancel culture
+capcut
+cappuccino
+caption
+car sharing
+cardio
+career path
+carry
+carsharing
+case study
+cash
+cash flow
+cashback
+casual
+casual friday
+catcalling
+catch-up
+catering
+challenge
+champions league
+changelog
+chargeback
+charger
+chat
+chat gpt
+chatbot
+chatgpt
+cheat
+cheat sheet
+check-in
+check-out
+checkbox
+checklist
+checkout
+checkpoint
+cheers
+cheeseburger
+cheesecake
+chill
+chillout
+christmas
+chromebook
+churn
+churn rate
+cider
+city break
+claim
+clean code
+clearance
+clickbait
+clickup
+cliffhanger
+climate change
+clone
+close friends
+closing
+cloud
+cloud computing
+cloudflare
+cluster
+clutch
+co-host
+co-op
+coach
+coachella
+coaching
+code
+code review
+codebase
+coder
+coding
+coffee shop
+cold call
+cold mail
+coldplay
+coliving
+collab
+collabs
+comeback
+comedy
+coming out
+coming-of-age
+commit
+commitment
+community manager
+compiler
+compliance
+component
+computer vision
+concealer
+conference call
+confluence
+congrats
+congratulations
+consent
+contactless
+container
+content
+content creator
+content marketing
+continue
+continuous integration
+converse
+conversion rate
+cookie
+cookies
+cool
+copilot
+copy
+copy paste
+copy-paste
+copyright
+copywriter
+copywriting
+corporate
+cosmopolitan
+cosplay
+counter-strike
+country
+coupon
+cover
+coworking
+cozy
+craft
+creative director
+creator
+credit card
+creepy
+crew
+cringe
+cronjob
+cross-platform
+cross-sell
+crossfit
+crossover
+crowdfunding
+crunch
+crush
+crypto
+cupcake
+curling
+customer experience
+customer service
+customer success
+customer support
+cut-off
+cute
+cutscene
+cyber monday
+cyberbullying
+cyberpunk
+daily
+daily standup
+dark mode
+darling
+darts
+dashboard
+data analyst
+data engineer
+data science
+data scientist
+dataset
+date
+dating
+deadlift
+deadline
+deadlock
+deadpool
+deal
+dealer
+debriefing
+debug
+debugger
+debugging
+deck
+deep dive
+deep learning
+deep work
+deepfake
+deepseek
+deliverable
+delivery
+dell
+dependency
+deploy
+deployment
+design
+design patterns
+designer
+desktop
+dev
+developer
+devops
+devtools
+diff
+digital detox
+digital nomad
+dinner
+dip
+direct message
+director
+discord
+discount
+discovery
+disney
+disneyland
+diss
+diversity
+dj
+docker
+donut
+double click
+downgrade
+downtime
+draft
+drag and drop
+dream job
+dream team
+dress code
+drip
+drive
+drive-in
+drive-thru
+drop
+dropbox
+dropdown
+dropshipping
+dubstep
+duty-free
+déjà vu
+e-book
+e-commerce
+e-learning
+e-mail
+earbuds
+early access
+early adopter
+early bird
+easter egg
+easy
+easyjet
+ebay
+ebook
+eco-friendly
+ecommerce
+edge case
+elasticsearch
+elearning
+elevator pitch
+email
+embedding
+eminem
+emirates
+emmy
+emoji
+emote
+employer branding
+empowerment
+encryption
+end-to-end
+endpoint
+engagement
+enter
+equity
+error
+escalation
+escape room
+ethereum
+etsy
+eurovision
+event
+excel
+exit
+expedia
+explainer
+exploit
+extrovert
+eyeliner
+face id
+facebook
+facebook ads
+facepalm
+facetime
+fact checking
+fact-checking
+factoring
+factory
+fair play
+fake
+fake news
+fallback
+fanboy
+fancy
+fandom
+fanfic
+fangirl
+fanpage
+fantasy
+farming
+fast fashion
+fast food
+feature
+feature flag
+feature request
+features
+featuring
+feed
+feedback
+fig
+filter
+fine tuning
+fine-tuning
+finger food
+finisher
+fintech
+firebase
+firewall
+firmware
+fit
+fitbit
+fitness
+flash sale
+flex
+flexing
+flipchart
+flipping
+flow
+folk
+follow
+follow up
+follow-up
+follower
+followers
+fomo
+food court
+food truck
+foodie
+football
+footer
+for you page
+forbes
+forecast
+fork
+fortnite
+forward
+framework
+free shipping
+free trial
+freelance
+freelancer
+freemium
+freeride
+freestyle
+freeware
+friday
+friend zone
+friends
+friends with benefits
+friendzone
+front office
+front-end
+frontend
+frontman
+frozen
+full stack
+full time
+full-stack
+full-time
+fullstack
+fun
+funnel
+funny
+galaxy
+game
+game changer
+game of thrones
+game over
+game pass
+game show
+gamedev
+gamepad
+gameplay
+gamer
+gamification
+gaming
+gaming pc
+garage
+garmin
+gaslighting
+gate
+geforce
+gemini
+ghosting
+gift card
+girlboss
+girlfriend
+github
+github copilot
+gitlab
+giveaway
+glamping
+global warming
+glow
+glow-up
+gmail
+go-live
+go-to
+go-to-market
+goat
+golang
+good job
+good luck
+google
+google ads
+google analytics
+google cloud
+google docs
+google drive
+google maps
+google meet
+google pay
+google play
+google sheets
+gopro
+gps
+grammy
+grammys
+graphic designer
+graphql
+great job
+green flag
+greenwashing
+grind
+grinding
+grooming
+group chat
+growth
+growth hacking
+growth mindset
+grunge
+guide
+gym
+hackathon
+hacker
+hacking
+halloween
+hands-on
+happy birthday
+happy end
+happy hour
+happy new year
+hard skills
+hardware
+harley
+harley-davidson
+harry potter
+hashtag
+hat trick
+hat-trick
+hate
+hate speech
+hater
+haul
+headbanging
+header
+headhunter
+headless
+headline
+headliner
+headphones
+headquarters
+headset
+headshot
+healer
+healing
+heart
+heatmap
+heavy metal
+hello
+help desk
+helpdesk
+hey
+hi-tech
+high score
+high-tech
+highlighter
+highlights
+hiking
+hilton
+hip hop
+hip-hop
+hiring manager
+hit
+hockey
+home office
+homepod
+homestay
+honey
+hoodie
+hooks
+hosting
+hot dog
+hot-dog
+hotfix
+hotspot
+house
+housekeeping
+housewarming
+hover
+hubspot
+hugging face
+hustle
+hybrid work
+hype
+hypebeast
+hyped
+icloud
+iconic
+imac
+inbound
+inbox
+incel
+inclusion
+incubator
+indeed
+indesign
+indie
+indiegogo
+indoor
+influencer
+influencer marketing
+info
+inheritance
+input
+insight
+insights
+instagram
+interface
+interior design
+internet of things
+internship
+introvert
+invite
+ipad
+iphone
+ipod
+issue
+jailbreak
+jam session
+james bond
+java
+javascript
+jeans
+jeep
+jet lag
+jingle
+jir
+jira
+job
+job interview
+job offer
+jogging
+joker
+journaling
+joystick
+jungle
+k-pop
+key account
+key account manager
+keyboard
+keynote
+kick-off
+kickboxing
+kickoff
+kickstarter
+kids
+kindle
+kitesurfing
+knockout
+know-how
+kubernetes
+landing
+landing page
+large language model
+last minute
+late check-out
+latency
+launch
+layoff
+layoffs
+layout
+lead
+lead generation
+leaderboard
+leadership
+leasing
+legacy
+legacy code
+lemonade
+lessons
+let's go
+level
+level up
+license
+life hack
+lifehack
+lifestyle
+light mode
+like
+line-up
+lineup
+link
+link in bio
+linkedin
+linter
+literally
+live
+live chat
+live coding
+live stream
+livestream
+lo-fi
+load balancer
+lockdown
+lofi
+log out
+logout
+long read
+look
+loot
+lounge
+love bombing
+low-code
+lunch
+lunchbox
+macbook
+macbook air
+macbook pro
+machine learning
+machinekind
+mail
+mailchimp
+mailing
+main
+mainstream
+make-up
+makeover
+maker
+makeup
+making of
+malware
+management
+manager
+mansplaining
+marketing automation
+marketplace
+marvel
+mastercard
+masterchef
+masterclass
+mastering
+match
+mcdonald's
+mcdonalds
+meal prep
+meeting
+meeting room
+meetup
+member
+membership
+meme
+mental health
+mention
+merch
+merchandise
+merge
+merge request
+merry christmas
+messenger
+metaverse
+microblading
+microservices
+microsoft
+microsoft office
+microsoft teams
+mid
+midjourney
+miles
+milestone
+milkshake
+millennials
+mindfulness
+mindset
+minecraft
+minions
+mixing
+mobile app
+mock
+mockup
+monetization
+monthly
+mood
+moodboard
+moshpit
+mousepad
+muffin
+multiplayer
+multitasking
+music video
+must have
+must-have
+must-read
+must-see
+must-watch
+nearshoring
+nerf
+netflix
+networking
+neural network
+news
+newsletter
+newsroom
+next.js
+nice
+nice to have
+nickname
+nightclub
+nightlife
+nike
+no comment
+no problem
+no way
+no-code
+node.js
+noob
+nordic walking
+notebook
+notification
+notifications
+notion
+nuggets
+nvidia
+oasis
+off-road
+off-site
+offboarding
+office
+office manager
+offline
+offshoring
+offside
+ok boomer
+on-call
+on-site
+onboarding
+one-liner
+one-on-one
+onedrive
+online
+onlyfans
+open mic
+open source
+open space
+open world
+open'er
+openai
+opt-in
+opt-out
+oscars
+out of office
+outage
+outbound
+outcome
+outdoor
+outfit
+outlet
+outlook
+output
+outreach
+outsourcing
+overbooking
+overclocking
+overengineering
+overhead
+override
+oversize
+overthinking
+overtime
+overview
+overwatch
+ownership
+pace
+packaging
+pain point
+paintball
+pair programming
+pancake
+pancakes
+part time
+part-time
+partner in crime
+party
+password
+password manager
+past simple
+patch
+patreon
+payload
+paypal
+paywall
+peeling
+pendrive
+pentest
+penthouse
+performance
+performance marketing
+performance review
+perplexity
+personal brand
+personal branding
+personal trainer
+phishing
+photoshop
+pinterest
+pipeline
+pitch
+pitch deck
+pivot
+pixar
+pizza hut
+placeholder
+plank
+planner
+planning
+plant-based
+play store
+play-off
+playback
+playground
+playlist
+playoff
+playoffs
+playstation
+please
+plot twist
+plug-in
+plugin
+podcast
+podcaster
+pop-up
+popcorn
+popup
+post-it
+postmortem
+power bank
+power bi
+power button
+powerbank
+powerpoint
+pre-order
+pre-workout
+premier league
+preorder
+prequel
+present perfect
+pricing
+pride
+prime video
+print screen
+printscreen
+privacy policy
+prod
+producer
+product designer
+product manager
+product owner
+production
+project manager
+promo code
+prompt
+prompt engineer
+prompt engineering
+proof of concept
+protein
+proxy
+pub
+pull
+pull request
+push
+push notification
+python
+q&a
+qr
+quarterly
+queen
+quest
+queue
+quick win
+quiz
+radiohead
+rafting
+random
+ranked
+ransomware
+rave
+razer
+reach
+react
+reaction
+reactions
+real estate
+real-time
+reality show
+rebase
+rebranding
+recovery
+recruiter
+red bull
+red carpet
+red flag
+reddit
+reebok
+reel
+reels
+refactor
+refactoring
+refinement
+refund
+release
+release notes
+remake
+remaster
+reminder
+remote
+remote work
+reply
+reply all
+repo
+reporting
+repository
+repost
+request
+research
+resell
+reseller
+reset
+respawn
+response
+responsive
+restart
+retention
+retreat
+retrospective
+retweet
+revenue
+review
+reviewer
+ribs
+rihanna
+rizz
+road trip
+roadie
+roadmap
+roadtrip
+roaming
+roast
+roblox
+rock'n'roll
+roguelike
+rollback
+rollercoaster
+rollout
+rolls-royce
+romance
+rooftop
+router
+routine
+royalty
+rugby
+running
+runtime
+rush
+rust
+ryanair
+safe space
+sales manager
+salesforce
+samsung
+sandbox
+sandwich
+scalable
+scale-up
+sci-fi
+science fiction
+scope creep
+scraping
+screen
+screen time
+screenshot
+script
+scroll
+scrum
+scrum master
+search engine
+second hand
+second-hand
+see you
+seen
+self-care
+self-help
+self-love
+self-service
+selfie
+selfie stick
+sequel
+server
+serverless
+service desk
+session
+setup
+shake
+shareholder
+sharepoint
+shazam
+sheet
+shein
+shell
+shooter
+shopify
+shopping
+shortcut
+shorts
+shot
+shout-out
+shoutout
+show
+showroom
+showstopper
+side hustle
+side project
+sign in
+sign up
+sign-off
+signal
+silicon valley
+simp
+sitcom
+situationship
+six pack
+sixpack
+skateboard
+skateboarding
+skatepark
+skater
+sketch
+skill
+skills
+skillset
+skin
+skincare
+skype
+skyscanner
+slack
+slasher
+slay
+slide
+slider
+slides
+small talk
+smart city
+smart contract
+smart home
+smart tv
+smart watch
+smartband
+smartwatch
+smoothie
+snapchat
+sneakerhead
+sneakers
+snippet
+snooker
+snowboar
+snowboard
+snowboarding
+social engineering
+social media manager
+soft launch
+soft skills
+software
+software developer
+software engineer
+software house
+software update
+songwriter
+sorry
+soul
+soulmate
+sound
+soundbar
+soundcheck
+soundtrack
+spacex
+spaghetti code
+spam
+spawn
+speaker
+speech
+speed dating
+speedrun
+speedrunner
+spiderman
+spin-off
+spoiler
+spoiler alert
+spongebob
+sponsored
+spotify
+spreadsheet
+sprint
+sprint planning
+spyware
+squad
+squash
+stack
+stack overflow
+stack trace
+staging
+stakeholder
+stakeholders
+stalker
+stalking
+stand-up
+stand-up comedy
+standup
+star wars
+starbucks
+starlink
+start-up
+startup
+staycation
+steakhouse
+steam
+steampunk
+sticker
+stitch
+stopover
+storage
+stories
+story
+story points
+storyboard
+storytelling
+streak
+stream
+streamer
+streaming
+street food
+streetball
+streetstyle
+streetwear
+stretching
+stunt
+stuntman
+stylist
+subscribe
+subscriber
+subscription
+subtitles
+subway
+subwoofer
+summary
+summer
+summit
+sunrise
+sunset
+super bowl
+supercharger
+superfood
+superhero
+superman
+support
+surfing
+surround
+survival
+sustainability
+sustainable
+swag
+swagger
+sweet
+sweetheart
+swift
+swipe
+swipe up
+sync
+t-shirt
+tagline
+take away
+takeaway
+talent acquisition
+talent show
+talk
+talk show
+target
+task
+team
+team building
+team lead
+team leader
+teambuilding
+teams
+teamwork
+teaser
+tech
+tech debt
+tech lead
+tech stack
+technical debt
+template
+tensorflow
+test case
+thank you
+thanks
+thanksgiving
+theme
+think
+think-tank
+this
+thread
+threads
+thriller
+thumbnail
+thumbs up
+ticket
+tie-break
+tiktok
+tiktoker
+time management
+time to market
+timeline
+timer
+tinder
+to do list
+to go
+to-do
+to-do list
+toggle
+token
+toner
+toolkit
+tooltip
+touch id
+touchpad
+touchscreen
+track
+tracking
+trackpad
+trader
+trading
+traffic
+trailer
+trainee
+training
+trance
+transformer
+trekking
+trello
+trending
+trendsetter
+trial
+true crime
+tutorial
+tweet
+twerking
+twitch
+twitter
+typescript
+typing
+u2
+uber
+uber eats
+unboxing
+underdog
+underground
+unfollow
+unicorn
+unit test
+unit tests
+unity
+unplugged
+unsubscribe
+update
+upgrade
+upsell
+uptime
+use case
+user
+user experience
+user interface
+user story
+username
+valorant
+vans
+venture capital
+vibe
+vibes
+video call
+views
+vintage
+viral
+virtual reality
+vlog
+vlogger
+voice message
+voucher
+wallet
+waterfall
+waze
+wearable
+wearables
+web app
+web designer
+web3
+webcam
+webhook
+wednesday
+weekday
+weeken
+weekend
+weekendowych
+weekly
+weird
+welcome
+well done
+well-being
+wellbeing
+wellness
+whatever
+whatsapp
+whey
+whiteboard
+whitepaper
+wi-fi
+widget
+wifi
+wimbledon
+win-win
+windows
+windsurfing
+wireframe
+wireless
+wishlist
+woke
+woodstock
+word
+word of mouth
+wordpress
+work from home
+work-life
+work-life balance
+workaround
+workout
+workshop
+wow
+wrap
+xbox
+yes
+yolo
+youtube
+youtube shorts
+youtuber
+zero waste

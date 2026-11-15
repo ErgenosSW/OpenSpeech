@@ -1,14 +1,130 @@
 {
-  "sherpa-onnx-1.12.20.aar": {
-    "sha256": "e3905b1258b577d8d374db798618602ceaaff5805cbf9b356ab25267cd98144d",
-    "bytes": 38013991
+  "schemaVersion": 3,
+  "artifacts": {
+    "encoder.onnx": {
+      "sha256": "a8f297c44bd869ddb6b9eed5674945b7688e7a99c0795fb3cfe888b18243520e",
+      "bytes": 39170282,
+      "url": "https://huggingface.co/machinekind/Matcha-TTS-PL-Edge-v2/resolve/8ac4956ca61f91732e99965a8645215f0a8bd383/male_voxcpm_2/encoder.onnx"
+    },
+    "decoder_t4.onnx": {
+      "sha256": "fde54579f5af575a1f29f90208c109187e722abd8f9fe12069bc2b3fa6382e89",
+      "bytes": 45435005,
+      "url": "https://huggingface.co/machinekind/Matcha-TTS-PL-Edge-v2/resolve/8ac4956ca61f91732e99965a8645215f0a8bd383/male_voxcpm_2/decoder_t4.onnx"
+    },
+    "vocoder.onnx": {
+      "sha256": "7d94e82d1426ffc250c4a577b10822972b39783a388224feef8469f2f9e07db2",
+      "bytes": 3743239,
+      "url": "https://huggingface.co/machinekind/Matcha-TTS-PL-Edge-v2/resolve/8ac4956ca61f91732e99965a8645215f0a8bd383/male_voxcpm_2/vocoder.onnx"
+    },
+    "voices.json": {
+      "sha256": "d1dbb56a5e7bd7f18743f1e2cd60daee6623b35cab1842bca00e35e85183023e",
+      "bytes": 22261,
+      "url": "https://huggingface.co/machinekind/Matcha-TTS-PL-Edge-v2/resolve/8ac4956ca61f91732e99965a8645215f0a8bd383/male_voxcpm_2/voices.json"
+    },
+    "MODEL_CARD.md": {
+      "sha256": "a1bf54783b7668e24f55d744007551a05ecaea07ed6b499902449aad4f47b0c7",
+      "bytes": 13415,
+      "url": "https://huggingface.co/machinekind/Matcha-TTS-PL-Edge-v2/resolve/8ac4956ca61f91732e99965a8645215f0a8bd383/README.md"
+    },
+    "voice.properties": {
+      "sha256": "1d0feff9afd15b0687d9caa92409ff960b99595597588d8166e398c001153432",
+      "bytes": 835,
+      "generated": true
+    },
+    "espeak-ng-data/en_dict": {
+      "sha256": "1053f74a34af38abb6fbd64b7838dacbc655a687c48ce1bb663d364a127b05de",
+      "bytes": 168204,
+      "generated": true
+    },
+    "espeak-ng-data/intonations": {
+      "sha256": "031a105bf6bb2ebcd73a2c579ccfb42469b27266db0078af65ae298fd3588b21",
+      "bytes": 2312,
+      "generated": true
+    },
+    "espeak-ng-data/lang/gmw/en": {
+      "sha256": "4605d5330801de3641c6e366d15f129ea1f5ffbce8722642aba01ace07ab9c83",
+      "bytes": 140,
+      "generated": true
+    },
+    "espeak-ng-data/lang/zlw/pl": {
+      "sha256": "83c586a2b724b24b9f98d21ade5022112c465ac446ca09930286980ceae1c781",
+      "bytes": 38,
+      "generated": true
+    },
+    "espeak-ng-data/phondata": {
+      "sha256": "a0b643b155cb6b12628d9e7865b57d9fca0d35844614f2594a5e009c80c80bb4",
+      "bytes": 554740,
+      "generated": true
+    },
+    "espeak-ng-data/phonindex": {
+      "sha256": "384e5fa6f714ba5356c58008249b78699c31c1ad044b243068d263fb806b7d73",
+      "bytes": 43316,
+      "generated": true
+    },
+    "espeak-ng-data/phontab": {
+      "sha256": "1b40690667e1e9aa1ba5e5234773c799e7e72ea751426e5150423d53c3f24fa2",
+      "bytes": 58652,
+      "generated": true
+    },
+    "espeak-ng-data/pl_dict": {
+      "sha256": "4daed8b7fce7bad6c690a8f040f254b6de5d238eb87cf0188a46f6b8a7030933",
+      "bytes": 76620,
+      "generated": true
+    }
   },
-  "darkman-export.tar.bz2": {
-    "sha256": "444727aa46eb6db645a2bc88fe73868e4bd7596b7f56ca39fad5ef53c41210d4",
-    "bytes": 67215635
+  "voice": {
+    "id": "matcha-pl-edge-v2-male-fp32",
+    "revision": "8ac4956ca61f91732e99965a8645215f0a8bd383",
+    "files": [
+      "encoder.onnx",
+      "decoder_t4.onnx",
+      "vocoder.onnx",
+      "voices.json",
+      "MODEL_CARD.md",
+      "voice.properties",
+      "espeak-ng-data/en_dict",
+      "espeak-ng-data/intonations",
+      "espeak-ng-data/lang/gmw/en",
+      "espeak-ng-data/lang/zlw/pl",
+      "espeak-ng-data/phondata",
+      "espeak-ng-data/phonindex",
+      "espeak-ng-data/phontab",
+      "espeak-ng-data/pl_dict"
+    ],
+    "weightsLicense": "CC-BY-SA-4.0",
+    "redistributionStatus": "approved",
+    "permissionEvidence": "docs/audit/matcha-license-review.md",
+    "language": "pl",
+    "sampleRate": 22050,
+    "speaker": "male_voxcpm_2; synthetic voice"
   },
-  "pl_PL-darkman-medium.onnx": {
-    "sha256": "fd148128231cb6a9fb14b6191d3c9f113c3ef05f603758a5fe0fa68085af536e",
-    "bytes": 63201450
+  "native": {
+    "espeakRevision": "4870adfa25b1a32b4361592f1be8a40337c58d6c",
+    "sourceManifest": "licenses/native-sources.json",
+    "sourceManifestSha256": "36fcd8ac26c80592cef47adae90764b1229eecbd4e86038141875d276c37e7e9",
+    "buildFromSource": true
+  },
+  "audit": {
+    "apkInventory": "approved",
+    "nativeSources": "approved",
+    "notices": "approved"
+  },
+  "gradleRuntimeInventory": {
+    "path": "docs/audit/gradle-runtime-inventory.json",
+    "bytes": 21991,
+    "sha256": "33119fa27c6746b0a4f04f69eca6b15a5d392c3eecd4328e131e154a996e51ec",
+    "reviewStatus": "approved"
+  },
+  "gradleDependencyLock": {
+    "path": "app/gradle.lockfile",
+    "bytes": 51837,
+    "sha256": "1d022744ba7de037c313b6b4cfcfeae5bd62d9de8af6a5227b32d225cbf51f82",
+    "reviewStatus": "approved"
+  },
+  "gradleVerificationMetadata": {
+    "path": "gradle/verification-metadata.xml",
+    "bytes": 143076,
+    "sha256": "ff08e2c13305c1448a2a4c97325a61c46ce72a1c4f4288587ebd383dcfd552aa",
+    "reviewStatus": "approved"
   }
 }

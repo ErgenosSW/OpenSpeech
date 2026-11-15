@@ -1,0 +1,553 @@
+{
+  "apkSha256": "b088c8163f9dd72e8717979c304b0a84d74ed714344dec7c84f08a1082c312e9",
+  "apkBytes": 135201469,
+  "auditStatus": "unreviewed",
+  "versions": {
+    "META-INF/androidx.annotation_annotation-experimental.version": {
+      "embeddedValue": "1.4.1",
+      "resolvedVersion": "1.4.1"
+    },
+    "META-INF/androidx.arch.core_core-runtime.version": {
+      "embeddedValue": "task ':arch:core:core-runtime:writeVersionFile' property 'version'",
+      "resolvedVersion": null
+    },
+    "META-INF/androidx.core_core.version": {
+      "embeddedValue": "1.15.0",
+      "resolvedVersion": "1.15.0"
+    },
+    "META-INF/androidx.interpolator_interpolator.version": {
+      "embeddedValue": "1.0.0",
+      "resolvedVersion": "1.0.0"
+    },
+    "META-INF/androidx.lifecycle_lifecycle-runtime.version": {
+      "embeddedValue": "task ':lifecycle:lifecycle-runtime:writeVersionFile' property 'version'",
+      "resolvedVersion": null
+    },
+    "META-INF/androidx.profileinstaller_profileinstaller.version": {
+      "embeddedValue": "1.3.0",
+      "resolvedVersion": "1.3.0"
+    },
+    "META-INF/androidx.startup_startup-runtime.version": {
+      "embeddedValue": "1.1.1",
+      "resolvedVersion": "1.1.1"
+    },
+    "META-INF/androidx.tracing_tracing.version": {
+      "embeddedValue": "1.2.0",
+      "resolvedVersion": "1.2.0"
+    },
+    "META-INF/androidx.versionedparcelable_versionedparcelable.version": {
+      "embeddedValue": "1.1.1",
+      "resolvedVersion": "1.1.1"
+    },
+    "META-INF/kotlinx_coroutines_android.version": {
+      "embeddedValue": "1.6.4",
+      "resolvedVersion": "1.6.4"
+    },
+    "META-INF/kotlinx_coroutines_core.version": {
+      "embeddedValue": "1.6.4",
+      "resolvedVersion": "1.6.4"
+    }
+  },
+  "files": [
+    {
+      "path": "META-INF/com/android/build/gradle/app-metadata.properties",
+      "bytes": 56,
+      "sha256": "8202f7c2e4c63802e60a377cafd767bca48370716b97cda90a91c8ab96cef941"
+    },
+    {
+      "path": "classes.dex",
+      "bytes": 6211352,
+      "sha256": "c957b608571c414f127994af03fa9f851eaa67b39e2ae622d9a13c5519a7cdfb"
+    },
+    {
+      "path": "classes2.dex",
+      "bytes": 16284,
+      "sha256": "55dbc0e7d8f7a569b2fceb09be2584bdb76857c7df7f73d6f7d835f92685a60d"
+    },
+    {
+      "path": "lib/arm64-v8a/libonnxruntime.so",
+      "bytes": 19347616,
+      "sha256": "b67e18edab9f63f8672c2d4843266e226558099f1aaefe66bd033fdbe365987b"
+    },
+    {
+      "path": "lib/arm64-v8a/libonnxruntime4j_jni.so",
+      "bytes": 75752,
+      "sha256": "ebe51b6a8781949e6b36973b6c2c630e090b5fdda9626bb7998aae4597fd467d"
+    },
+    {
+      "path": "lib/arm64-v8a/libopenspeech-phonemes.so",
+      "bytes": 515888,
+      "sha256": "74eaec0a6b0da335050e0ce6caba91bc9cbc8032f18ca7a41d6771bda259de7c"
+    },
+    {
+      "path": "lib/x86_64/libonnxruntime.so",
+      "bytes": 23181616,
+      "sha256": "c85127fcb089c13937ac25fe2c66713379f9bece7667a4847c316ac2acceae28"
+    },
+    {
+      "path": "lib/x86_64/libonnxruntime4j_jni.so",
+      "bytes": 73432,
+      "sha256": "8519639c0de2701e9b5b02be2e568e43793c12f0a4c452de26d10752ef849233"
+    },
+    {
+      "path": "lib/x86_64/libopenspeech-phonemes.so",
+      "bytes": 513400,
+      "sha256": "9a90f93457319d88230b4698a92b63c638d98b5b56442555308520b48b2a7722"
+    },
+    {
+      "path": "assets/licenses/Matcha-ATTRIBUTION.md",
+      "bytes": 83462,
+      "sha256": "6edf54db6e8295b806a583828456fa68f8b5a25c1f08dc55aa41903847b4e5f8"
+    },
+    {
+      "path": "assets/licenses/Matcha-CC-BY-SA-4.0.txt",
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    {
+      "path": "assets/licenses/Matcha-MODEL_CARD.md",
+      "bytes": 13415,
+      "sha256": "a1bf54783b7668e24f55d744007551a05ecaea07ed6b499902449aad4f47b0c7"
+    },
+    {
+      "path": "assets/licenses/OpenSpeech-LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "assets/licenses/espeak-ng-GPL-3.0.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "assets/licenses/onnxruntime-MIT.txt",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "path": "assets/licenses/onnxruntime-ThirdPartyNotices.txt",
+      "bytes": 326866,
+      "sha256": "e9e90971a8e75a9a8ac0c6412e29c1202d079998389915aa485f46c816c3b4cc"
+    },
+    {
+      "path": "assets/licenses/ucd-Unicode-LICENSE.txt",
+      "bytes": 2788,
+      "sha256": "be029c50df83105a810e391778b6edcb522d6cb4b4e142332aca54437a499bf7"
+    },
+    {
+      "path": "assets/voice/MODEL_CARD.md",
+      "bytes": 13415,
+      "sha256": "a1bf54783b7668e24f55d744007551a05ecaea07ed6b499902449aad4f47b0c7"
+    },
+    {
+      "path": "assets/voice/decoder_t4.onnx",
+      "bytes": 45435005,
+      "sha256": "fde54579f5af575a1f29f90208c109187e722abd8f9fe12069bc2b3fa6382e89"
+    },
+    {
+      "path": "assets/voice/encoder.onnx",
+      "bytes": 39170282,
+      "sha256": "a8f297c44bd869ddb6b9eed5674945b7688e7a99c0795fb3cfe888b18243520e"
+    },
+    {
+      "path": "assets/voice/espeak-ng-data/en_dict",
+      "bytes": 168204,
+      "sha256": "1053f74a34af38abb6fbd64b7838dacbc655a687c48ce1bb663d364a127b05de"
+    },
+    {
+      "path": "assets/voice/espeak-ng-data/intonations",
+      "bytes": 2312,
+      "sha256": "031a105bf6bb2ebcd73a2c579ccfb42469b27266db0078af65ae298fd3588b21"
+    },
+    {
+      "path": "assets/voice/espeak-ng-data/lang/gmw/en",
+      "bytes": 140,
+      "sha256": "4605d5330801de3641c6e366d15f129ea1f5ffbce8722642aba01ace07ab9c83"
+    },
+    {
+      "path": "assets/voice/espeak-ng-data/lang/zlw/pl",
+      "bytes": 38,
+      "sha256": "83c586a2b724b24b9f98d21ade5022112c465ac446ca09930286980ceae1c781"
+    },
+    {
+      "path": "assets/voice/espeak-ng-data/phondata",
+      "bytes": 554740,
+      "sha256": "a0b643b155cb6b12628d9e7865b57d9fca0d35844614f2594a5e009c80c80bb4"
+    },
+    {
+      "path": "assets/voice/espeak-ng-data/phonindex",
+      "bytes": 43316,
+      "sha256": "384e5fa6f714ba5356c58008249b78699c31c1ad044b243068d263fb806b7d73"
+    },
+    {
+      "path": "assets/voice/espeak-ng-data/phontab",
+      "bytes": 58652,
+      "sha256": "1b40690667e1e9aa1ba5e5234773c799e7e72ea751426e5150423d53c3f24fa2"
+    },
+    {
+      "path": "assets/voice/espeak-ng-data/pl_dict",
+      "bytes": 76620,
+      "sha256": "4daed8b7fce7bad6c690a8f040f254b6de5d238eb87cf0188a46f6b8a7030933"
+    },
+    {
+      "path": "assets/voice/manifest.json",
+      "bytes": 1871,
+      "sha256": "8e118a58665f18a03f6daad2ecee200a46722240a10489499506d27c828f8862"
+    },
+    {
+      "path": "assets/voice/vocoder.onnx",
+      "bytes": 3743239,
+      "sha256": "7d94e82d1426ffc250c4a577b10822972b39783a388224feef8469f2f9e07db2"
+    },
+    {
+      "path": "assets/voice/voice.properties",
+      "bytes": 835,
+      "sha256": "1d0feff9afd15b0687d9caa92409ff960b99595597588d8166e398c001153432"
+    },
+    {
+      "path": "assets/voice/voices.json",
+      "bytes": 22261,
+      "sha256": "d1dbb56a5e7bd7f18743f1e2cd60daee6623b35cab1842bca00e35e85183023e"
+    },
+    {
+      "path": "res/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+      "bytes": 212,
+      "sha256": "21f0b55280be10b187ceff8edef4a5a7047683e6e9fcf47de410aa3839f41094"
+    },
+    {
+      "path": "res/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+      "bytes": 225,
+      "sha256": "42aee0b03883e94df5e543348a397d1302c1b8221895871a83b81899f5a9647b"
+    },
+    {
+      "path": "res/drawable-hdpi-v4/notification_bg_normal.9.png",
+      "bytes": 212,
+      "sha256": "0c6328c7b2420570a7ec38b3beb3bac9a29d895ac1ab7239315aba7266418593"
+    },
+    {
+      "path": "res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+      "bytes": 225,
+      "sha256": "18b328d8017e677d5aad3dbd66bae356b5cac978c6f0670938ea648e51d0eb66"
+    },
+    {
+      "path": "res/drawable-hdpi-v4/notification_oversize_large_icon_bg.png",
+      "bytes": 909,
+      "sha256": "aa00088d0d9fd97bd92ed9ffd29b54bb69a48a984aa73448ce553fb9d812be41"
+    },
+    {
+      "path": "res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+      "bytes": 107,
+      "sha256": "8430ec003e003f3f2ba2f78d48fd150e25407667e530e82e87a7d4841c0fd676"
+    },
+    {
+      "path": "res/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+      "bytes": 215,
+      "sha256": "2f7fbda0ba6e53e9a47e2fc0e24e32c447c613a5808c2d6285dc651e83a07ad7"
+    },
+    {
+      "path": "res/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+      "bytes": 223,
+      "sha256": "e17761ed280edd93d7141bd504b70f9e9e15a8652288d9e6333bf4ce964ef844"
+    },
+    {
+      "path": "res/drawable-mdpi-v4/notification_bg_normal.9.png",
+      "bytes": 215,
+      "sha256": "a8676a1793ac8310ffb12986232df66df092d29c242aeedc2b73556c010d38dc"
+    },
+    {
+      "path": "res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+      "bytes": 223,
+      "sha256": "99c14d6855b8be296d58017d3751b8dc849c47b6d1d80ab614ff9075080e461b"
+    },
+    {
+      "path": "res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+      "bytes": 98,
+      "sha256": "0d773e62c756422313262846c787e58f67e0ee87e45e1ae9942002e816c4cb9e"
+    },
+    {
+      "path": "res/drawable-v21/notification_action_background.xml",
+      "bytes": 1180,
+      "sha256": "2f768c089cefa18cf7f1fde7f602410bf38998de5f9073a15ea83106c25e3c30"
+    },
+    {
+      "path": "res/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
+      "bytes": 221,
+      "sha256": "3e09afa21c45372c035598c017c8fb405a6d678e6cb84dc857581cb3b40e482d"
+    },
+    {
+      "path": "res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
+      "bytes": 252,
+      "sha256": "20343222f9f79dd565c3a2248494d452e70820ac1c437173c38badd45f962afd"
+    },
+    {
+      "path": "res/drawable-xhdpi-v4/notification_bg_normal.9.png",
+      "bytes": 221,
+      "sha256": "559bf783d765c02338e97952bdc9c6689c7ff99090b8c9813369118da8b080f0"
+    },
+    {
+      "path": "res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
+      "bytes": 247,
+      "sha256": "d27af435101ca4cbec0c840bd30687918cd39eb83aab1487420855623a45998b"
+    },
+    {
+      "path": "res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
+      "bytes": 138,
+      "sha256": "b44eeda34d7a529c2fe55719eb098fa29707caa91d18de06a7a775d6e6bcf973"
+    },
+    {
+      "path": "res/drawable/ic_call_answer.xml",
+      "bytes": 1356,
+      "sha256": "5f6376dfe199d8a6e40033d3e623989d052c9b2f974d00c824fbb8b76fc6fde8"
+    },
+    {
+      "path": "res/drawable/ic_call_answer_low.xml",
+      "bytes": 1320,
+      "sha256": "8f9acacabaf2dfb4bb53dab7ce7bec9c1451ce0a0219ffaa41760ea82da3d2d6"
+    },
+    {
+      "path": "res/drawable/ic_call_answer_video.xml",
+      "bytes": 772,
+      "sha256": "5d4cdaae5838ad9442c085f951b766b2808bff13b8c85a14e0bcf8571514492c"
+    },
+    {
+      "path": "res/drawable/ic_call_answer_video_low.xml",
+      "bytes": 736,
+      "sha256": "4a959580080ebb1d822a2459a4234d2abf0dd0b65d9c28bda8c258dafc888c51"
+    },
+    {
+      "path": "res/drawable/ic_call_decline.xml",
+      "bytes": 1528,
+      "sha256": "2d825b79cce60203492ff09a04826db0ac8d9eb9bc0fb9fb139ae1aa5cde0f67"
+    },
+    {
+      "path": "res/drawable/ic_call_decline_low.xml",
+      "bytes": 1492,
+      "sha256": "c8321364802409baf4d76e2a84e303871585bdc95b0395040c5ecea0e2051105"
+    },
+    {
+      "path": "res/drawable/ic_voice.xml",
+      "bytes": 812,
+      "sha256": "7ca928463f841a3abae03f4f4c4b71dc576bd7976949bff37efbc8a1e00e942e"
+    },
+    {
+      "path": "res/drawable/notification_bg.xml",
+      "bytes": 532,
+      "sha256": "c592ce5af4e4d611ff3da3b0beda9603433f9a6dbc401ffba7a033191d288ed5"
+    },
+    {
+      "path": "res/drawable/notification_bg_low.xml",
+      "bytes": 532,
+      "sha256": "3b1f923e14c06b688b0b1a12484bc747ed238ef9cda09eb8ba6ff29ef50b5705"
+    },
+    {
+      "path": "res/drawable/notification_icon_background.xml",
+      "bytes": 372,
+      "sha256": "b143ee7fcbba209f17607a720502d755f085ec75380ad6fbd6f99de6583f0a40"
+    },
+    {
+      "path": "res/drawable/notification_tile_bg.xml",
+      "bytes": 304,
+      "sha256": "2ddb4c9c2cd47300a04e2d65ee2b41a449d9416ae4447a5b84326f908524ce3e"
+    },
+    {
+      "path": "res/layout-v21/notification_action.xml",
+      "bytes": 1052,
+      "sha256": "ad107ac6214d5b22f64c06442412fd9607d2a3a7f6e80d6c07b0e766519f3d81"
+    },
+    {
+      "path": "res/layout-v21/notification_action_tombstone.xml",
+      "bytes": 1228,
+      "sha256": "8b6fed02ca4145e68634c226fd3c07654019637469dbb2c29bb2d1989309c592"
+    },
+    {
+      "path": "res/layout-v21/notification_template_custom_big.xml",
+      "bytes": 2456,
+      "sha256": "7136b22022aa7d42c307571e35aae903b73712de9a85cd7b88d4785f2ca49526"
+    },
+    {
+      "path": "res/layout-v21/notification_template_icon_group.xml",
+      "bytes": 988,
+      "sha256": "18819b87092d13273f592d4fe807f899da726df2fea089167d5d518ab21599c1"
+    },
+    {
+      "path": "res/layout/custom_dialog.xml",
+      "bytes": 612,
+      "sha256": "4bb341d6e4e6ae2ba131d237752a4855219aa9cb39213a5e066d7e4a280b02d9"
+    },
+    {
+      "path": "res/layout/ime_base_split_test_activity.xml",
+      "bytes": 364,
+      "sha256": "37ff040591f96786bfaf9d3d937fedf2f2f97e218c06beb3e7fe8a2442a181a8"
+    },
+    {
+      "path": "res/layout/ime_secondary_split_test_activity.xml",
+      "bytes": 876,
+      "sha256": "159fddd017a5a0264ea1478ca2866e76096f0bce8d56c252c4418c0c2a5c0a18"
+    },
+    {
+      "path": "res/layout/notification_template_part_chronometer.xml",
+      "bytes": 440,
+      "sha256": "ccbc335fa5766edb1f31205a57f16c4e07cf428486486d4d55cf23d70b66e994"
+    },
+    {
+      "path": "res/layout/notification_template_part_time.xml",
+      "bytes": 440,
+      "sha256": "ed0bdfd12b4bc63ff88bf2a565804741a62f14e70b25d09afc9c0557b8760ba2"
+    },
+    {
+      "path": "res/xml/data_extraction_rules.xml",
+      "bytes": 1408,
+      "sha256": "8e79f94260e57123d75ef5cc8c9154f89f34a285a260e8d0e874d0215085fbd7"
+    },
+    {
+      "path": "res/xml/share_paths.xml",
+      "bytes": 400,
+      "sha256": "45d2ba4eacd2f3bbb4b73fbcb10645f9df9bf7eb73204b9be2d8d4efc7b59aa6"
+    },
+    {
+      "path": "resources.arsc",
+      "bytes": 58696,
+      "sha256": "76e91ed0dd4f01151b8ee47afb5f350425d1cc73819aa03303fca25c613e118e"
+    },
+    {
+      "path": "DebugProbesKt.bin",
+      "bytes": 1738,
+      "sha256": "158a19eb94aa2f3e2f459db69ee10276c73b945dd6c5f8fc223cf2d85e2b5e33"
+    },
+    {
+      "path": "META-INF/androidx.annotation_annotation-experimental.version",
+      "bytes": 6,
+      "sha256": "7d072b48526b023950e4c48db01e8c273554a6401119f5691e7589ba9bc65d9d"
+    },
+    {
+      "path": "META-INF/androidx.arch.core_core-runtime.version",
+      "bytes": 67,
+      "sha256": "1b7c606370188534dac5561fba2b2988093829697fce9e6e8832e9291d24ed00"
+    },
+    {
+      "path": "META-INF/androidx.core_core.version",
+      "bytes": 7,
+      "sha256": "d5b1f46669d1cff3be556b1656732c8777ad8ad3f3d05459cfb11dadb1f17d19"
+    },
+    {
+      "path": "META-INF/androidx.interpolator_interpolator.version",
+      "bytes": 6,
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+    },
+    {
+      "path": "META-INF/androidx.lifecycle_lifecycle-runtime.version",
+      "bytes": 72,
+      "sha256": "4257cccbba3f7aea521a40937d1bfdd5949f5f3e1ed689c402a4f2977109030b"
+    },
+    {
+      "path": "META-INF/androidx.profileinstaller_profileinstaller.version",
+      "bytes": 6,
+      "sha256": "64d23f858ef51b0f996e4966d4e27c0371b437e2d2787890b1f7ad22d4ec5663"
+    },
+    {
+      "path": "META-INF/androidx.startup_startup-runtime.version",
+      "bytes": 6,
+      "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989"
+    },
+    {
+      "path": "META-INF/androidx.tracing_tracing.version",
+      "bytes": 6,
+      "sha256": "1e5b51cde515396a9fa762909cf8ca6584ccc564b325d2eebeea76175fe95c4d"
+    },
+    {
+      "path": "META-INF/androidx.versionedparcelable_versionedparcelable.version",
+      "bytes": 6,
+      "sha256": "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989"
+    },
+    {
+      "path": "META-INF/kotlinx_coroutines_android.version",
+      "bytes": 5,
+      "sha256": "4f232ffa4f33d6227b6f492a7857a3fb3ea8ea0f8ab1d89fe667211326262a4a"
+    },
+    {
+      "path": "META-INF/kotlinx_coroutines_core.version",
+      "bytes": 5,
+      "sha256": "4f232ffa4f33d6227b6f492a7857a3fb3ea8ea0f8ab1d89fe667211326262a4a"
+    },
+    {
+      "path": "META-INF/services/kotlinx.coroutines.CoroutineExceptionHandler",
+      "bytes": 54,
+      "sha256": "3129b8edf6db07de6f8ff47695e2177c8bba4eed2962d3085c719e5acbb58a33"
+    },
+    {
+      "path": "META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory",
+      "bytes": 52,
+      "sha256": "a1ea77ea8f93f419256b6e66f29713f950d8d6e90442b608d880a48003b5eb72"
+    },
+    {
+      "path": "kotlin/annotation/annotation.kotlin_builtins",
+      "bytes": 865,
+      "sha256": "f6bf68d4798ece5071900772a4a87150314aed3788e042d9e30ab60a0857b211"
+    },
+    {
+      "path": "kotlin/collections/collections.kotlin_builtins",
+      "bytes": 3635,
+      "sha256": "91d6cd4138e850c100a2dec88a965453b0042bf7f6f51202fe4b1efba38e96c0"
+    },
+    {
+      "path": "kotlin/concurrent/atomics/atomics.kotlin_builtins",
+      "bytes": 2471,
+      "sha256": "ef8b50112968a5e1be21c9c03d68ce6a7a939a057b9bc5d3fab72c95470561bf"
+    },
+    {
+      "path": "kotlin/coroutines/coroutines.kotlin_builtins",
+      "bytes": 137,
+      "sha256": "98ab3a3c18fcb237528dd63fa489815c583e1d6c13debd2a27ac6d74ccf8717b"
+    },
+    {
+      "path": "kotlin/internal/internal.kotlin_builtins",
+      "bytes": 583,
+      "sha256": "7489c6bcec13d048a4ce9d9f3bafa1a11bfa08021bfa0e07166978d0bc5e450a"
+    },
+    {
+      "path": "kotlin/kotlin.kotlin_builtins",
+      "bytes": 18653,
+      "sha256": "d03111a486daaa503eb6c17aa6770daf744a9b668f54a75b419d1de3deb868a0"
+    },
+    {
+      "path": "kotlin/ranges/ranges.kotlin_builtins",
+      "bytes": 3349,
+      "sha256": "ecf5a840ebf529fd9d1fa8216febc191b8559412a1068554266f64bc3b6f8428"
+    },
+    {
+      "path": "kotlin/reflect/reflect.kotlin_builtins",
+      "bytes": 2370,
+      "sha256": "b549fbaa2455d8bd417f44e3df1af2ff6802693a5aa0bb6a740848467b53b69a"
+    },
+    {
+      "path": "classes3.dex",
+      "bytes": 103452,
+      "sha256": "bf1156698c6389b537942bca51974e9931b0bd38160f369112714dbb029288a7"
+    },
+    {
+      "path": "assets/licenses/Apache-2.0.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "assets/licenses/HiFi-GAN-MIT.txt",
+      "bytes": 1067,
+      "sha256": "5eec017ce442989e01a46cd9cd6aeb13cd0aa3b3943f681577bda00475afaa23"
+    },
+    {
+      "path": "assets/licenses/Matcha-TTS-MIT.txt",
+      "bytes": 1069,
+      "sha256": "874d84104bdc7b301f369b2f2e66b31f07826a67495af909655f3699c857620d"
+    },
+    {
+      "path": "assets/licenses/gradle-runtime-NOTICES.txt",
+      "bytes": 11621,
+      "sha256": "84c26045bf981f0622f0da3ce89a45883fea0453c9ed3c4adddce7db4f50d69f"
+    },
+    {
+      "path": "AndroidManifest.xml",
+      "bytes": 5708,
+      "sha256": "2a5fccd9952911a26aa8dfe7a9ee6517e1264292ee10263df8da775c936b951c"
+    }
+  ]
+}

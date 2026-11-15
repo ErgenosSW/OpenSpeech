@@ -1,0 +1,22 @@
+{
+  "apkSha256": "77a7d5aa0be3759bb079415dccbdd0dde7a0cf56e0d92bd6e7dcf0335c1fcadf",
+  "bytes": 134240586,
+  "certificateSha256": "5ffea3802697ec271ed0f5e042b7bee5c5061e66eb8fcac8755ed8d46b490620",
+  "applicationId": "pl.ergenos.glosfacet",
+  "versionCode": 7,
+  "debuggable": false,
+  "voiceArtifactsVerified": 14,
+  "nativeLibraries": [
+    "lib/arm64-v8a/libonnxruntime.so",
+    "lib/arm64-v8a/libonnxruntime4j_jni.so",
+    "lib/arm64-v8a/libopenspeech-phonemes.so",
+    "lib/x86_64/libonnxruntime.so",
+    "lib/x86_64/libonnxruntime4j_jni.so",
+    "lib/x86_64/libopenspeech-phonemes.so"
+  ],
+  "nativeLoadAlignmentMinimum": 16384,
+  "zipAlignment16KiB": "passed",
+  "networkPermission": false,
+  "microphonePermission": false,
+  "physicalDeviceTesting": "pending"
+}
