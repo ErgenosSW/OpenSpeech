@@ -3,8 +3,7 @@
 OpenSpeech to darmowa, otwartoźródłowa aplikacja na Androida dla osób niemówiących. Pozwala wpisać tekst i odczytać go na głos, zapisywać własne komunikaty oraz udostępniać nagrania. Mowa jest generowana lokalnie, bez internetu, konta i płatnych usług.
 
 ## Stan pierwszego wydania
-
-Poprzednie wydanie zostało usunięte. Przygotowana nowa wersja zastępuje stary model polskim syntetycznym głosem męskim na licencji CC BY-SA 4.0. Nowy klucz wydania został zatwierdzony przez właściciela. Kod, licencje i zależności opisano w [THIRD_PARTY.md](THIRD_PARTY.md).
+Przygotowana nowa wersja zastępuje stary model polskim syntetycznym głosem męskim na licencji CC BY-SA 4.0. Kod, licencje i zależności opisano w [THIRD_PARTY.md](THIRD_PARTY.md).
 
 Kompilacja podpisanego APK do testów i zgoda na publiczną publikację są oddzielne. Przed publikacją wymagane są testy na telefonie i sprawdzenie końcowego APK zgodnie z [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md). Testy na komputerze nie zastępują testów urządzenia.
 
