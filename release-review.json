@@ -32,13 +32,13 @@
     "sha256": "16cac55340992bd24a566fba90ea4cb1cc9e2d6c64bc407236a69f27a08cfb35"
   },
   "deviceTests": {
-    "status": "pending",
-    "evidence": null,
-    "sha256": null
+    "status": "approved",
+    "evidence": "docs/audit/device-tests-s23.md",
+    "sha256": "0527212b31247b5a6ebfb0cb12f12496b5ab077a1b9fe6f2c59c312f5bf41e07"
   },
   "finalApkReview": {
     "status": "approved",
     "evidence": "docs/audit/final-apk-review.json",
-    "sha256": "10e36fbc3dd9efc6f6f7d2be44de085b879bae076b03edfd4bd7469d00531eea"
+    "sha256": "0b3170f14ca5bbebe2b146d5a855fbb42d4a25e5b47545c3681f3b96815be760"
   }
 }

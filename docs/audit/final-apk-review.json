@@ -18,5 +18,5 @@
   "zipAlignment16KiB": "passed",
   "networkPermission": false,
   "microphonePermission": false,
-  "physicalDeviceTesting": "pending"
+  "physicalDeviceTesting": "owner-reported functional acceptance on Samsung Galaxy S23; see device-tests-s23.md"
 }

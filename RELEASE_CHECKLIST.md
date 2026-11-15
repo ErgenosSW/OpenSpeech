@@ -17,9 +17,9 @@ Dystrybucja pozostaje wstrzymana do zakończenia kontroli publikacji. Repozytori
 
 ## Przed publikacją
 
-- [ ] Na telefonie potwierdzono zrozumiałość krótkich i długich komunikatów, polskich znaków, liczb, skrótów i interpunkcji.
+- [x] Na telefonie potwierdzono zrozumiałość krótkich i długich komunikatów, polskich znaków, liczb, skrótów i interpunkcji.
 - [ ] Zmierzono start, czas do dźwięku, czas syntezy, pamięć i działanie trybu offline.
-- [ ] Sprawdzono zatrzymanie mowy, zmianę tempa, zapis i edycję komunikatów, WAV, udostępnianie audio i ponowne uruchomienie.
+- [x] Sprawdzono zatrzymanie mowy, zmianę tempa, zapis i edycję komunikatów, WAV, udostępnianie audio i ponowne uruchomienie.
 - [ ] Sprawdzono, że nowa instalacja i kolejne aktualizacje używają stałego certyfikatu. Przejście ze starego APK wymaga odinstalowania i usuwa stare dane; właściciel zatwierdził tę zmianę.
 - [ ] OpenSpeech.apk i OpenSpeech.zip opisują tę samą wersję; źródła obejmują dołączone komponenty GPL, dane i skrypty budowania, a licencje i NOTICE są dostępne w APK oraz paczce źródeł.
 - [ ] Kontrola --publication przechodzi. Właściciel samodzielnie wykonuje commit, tag, push i publikację.
@@ -27,3 +27,5 @@ Dystrybucja pozostaje wstrzymana do zakończenia kontroli publikacji. Repozytori
 ## Powiązanie dowodów
 
 release-review.json zawiera sumę dependencies.lock.json, odcisk aktualnych źródeł i sumy każdego dokumentu dowodowego. Odcisk można odczytać poleceniem `python3 scripts/check-release.py --fingerprint`. Zmiana kodu, modelu, natywnych źródeł, licencji lub blokad zależności wymaga ponownego przeglądu. Nie wpisywać approved dla nieprzeprowadzonych kontroli.
+
+Test funkcjonalny właściciela na Samsungu Galaxy S23 potwierdzony 15 listopada 2026: docs/audit/device-tests-s23.md. Pomiary liczbowe pozostają niewykonane; nie należy przedstawiać akceptacji funkcjonalnej jako benchmarku. Kontrola --publication sprawdza zapisane dowody, nie publikuje wydania.
